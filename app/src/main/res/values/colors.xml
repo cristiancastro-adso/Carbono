@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blueboton">#2D689B</color>
     <color name="transparente">#009B2D2D</color>
+    <color name="rojo">#FD0000</color>
 </resources>

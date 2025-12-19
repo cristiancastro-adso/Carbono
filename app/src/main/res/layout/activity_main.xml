@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".controller.MainActivity"
     android:background="@drawable/nuevofondo">
 
     <TextView
@@ -15,6 +15,7 @@
         android:fontFamily="serif-monospace"
         android:text="Bienvenido"
         android:textSize="30dp"
+        android:textColor="@color/blueboton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,6 +30,7 @@
         android:gravity="center"
         android:text="En esta App podras \n Evaluar tu huella de carbono \n de manera Facil "
         android:textSize="20dp"
+        android:textColor="@color/blueboton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

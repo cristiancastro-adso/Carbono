@@ -12,13 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppHCP">
         <activity
-            android:name=".RegistroActividad"
+            android:name=".controller.Usuario"
             android:exported="false" />
         <activity
-            android:name=".Principal"
+            android:name=".controller.Lista"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".controller.RegistroActividad"
+            android:exported="false" />
+        <activity
+            android:name=".controller.Principal"
+            android:exported="false" />
+        <activity
+            android:name=".controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
